@@ -1,0 +1,103 @@
+.background {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex{
+    height: 130px;
+    width: 100%;
+    background-color:yellowgreen;
+    margin-top: 25px;
+    justify-content: flex-start;
+    display: flex;
+    border: solid black;
+    border-radius: 20px;
+
+}
+
+.flex2{
+    height: 130px;
+    width: 100%;
+    background-color:yellowgreen;
+    margin-top: 25px;
+    justify-content: flex-end;
+    display: flex;
+    border: solid black;
+    border-radius: 20px;
+}
+
+.flex3{
+    height: 130px;
+    width: 100%;
+    background-color:yellowgreen;
+    margin-top: 25px;
+    justify-content: center;
+    display: flex;
+    border: solid black;
+    border-radius: 20px;
+}
+
+.flex4{
+    height: 130px;
+    width: 100%;
+    background-color:yellowgreen;
+    margin-top: 25px;
+    justify-content: space-between;
+    display: flex;
+    border: solid black;
+    border-radius: 20px;
+}
+
+.flex5{
+    height: 130px;
+    width: 100%;
+    background-color:yellowgreen;
+    margin-top: 25px; 
+    justify-content: space-around;
+    display: flex;
+    border: solid black;
+    border-radius: 20px;
+}
+
+.flex6{
+    height: 130px;
+    width: 100%;
+    background-color:yellowgreen;
+    margin-top: 25px;
+    justify-content: space-evenly;
+    display: flex;
+    border: solid black;
+    border-radius: 20px;
+}
+
+.box1{
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    margin:15px
+}
+.box2{
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    margin:15px
+}
+
+.box3{
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    margin:15px
+}
+.box4{
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    margin:15px
+}
+.box5{
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    margin:15px
+}
