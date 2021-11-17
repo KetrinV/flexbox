@@ -1,10 +1,18 @@
-.background {
-    display: flex;
-    flex-direction: column;
+*{
+    text-align: center;
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    color:#4a4a4a;
+}
+.background{
+    margin: 10px;
 }
 
 .flex{
-    height: 130px;
+    height: 90px;
     width: 100%;
     background-color:yellowgreen;
     margin-top: 25px;
@@ -16,7 +24,7 @@
 }
 
 .flex2{
-    height: 130px;
+    height: 90px;
     width: 100%;
     background-color:yellowgreen;
     margin-top: 25px;
@@ -27,7 +35,7 @@
 }
 
 .flex3{
-    height: 130px;
+    height: 90px;
     width: 100%;
     background-color:yellowgreen;
     margin-top: 25px;
@@ -38,7 +46,7 @@
 }
 
 .flex4{
-    height: 130px;
+    height: 90px;
     width: 100%;
     background-color:yellowgreen;
     margin-top: 25px;
@@ -49,7 +57,7 @@
 }
 
 .flex5{
-    height: 130px;
+    height: 90px;
     width: 100%;
     background-color:yellowgreen;
     margin-top: 25px; 
@@ -60,7 +68,7 @@
 }
 
 .flex6{
-    height: 130px;
+    height: 90px;
     width: 100%;
     background-color:yellowgreen;
     margin-top: 25px;
@@ -71,33 +79,69 @@
 }
 
 .box1{
-    height: 100px;
-    width: 100px;
+    height: 60px;
+    width: 60px;
     background-color: black;
-    margin:15px
+    margin:15px;
+    border-radius: 5px;
 }
 .box2{
-    height: 100px;
-    width: 100px;
+    height: 60px;
+    width: 60px;
     background-color: white;
-    margin:15px
+    margin:15px;
+    border-radius: 5px;
 }
 
 .box3{
-    height: 100px;
-    width: 100px;
+    height: 60px;
+    width: 60px;
     background-color: black;
-    margin:15px
+    margin:15px;
+    border-radius: 5px;
 }
 .box4{
-    height: 100px;
-    width: 100px;
+    height: 60px;
+    width: 60px;
     background-color: white;
-    margin:15px
+    margin:15px;
+    border-radius: 5px;
 }
 .box5{
-    height: 100px;
-    width: 100px;
+    height: 60px;
+    width: 60px;
     background-color: black;
-    margin:15px
+    margin:15px;
+    border-radius: 5px;
+}
+.box6{
+    height: 60px;
+    width: 60px;
+    background-color: white;
+    margin:15px;
+    border-radius: 5px;
+}
+
+.flex3 h1{
+    color: white;
+}
+.flex5 h1{
+    color: white;
+}
+.flex h1{
+    color: white;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #14468A;
+    color: #fff;
+    font-size: 1rem;
+}
+.üld{
+    margin: 20px;
+}
+.oluline{
+    margin: 20px;
 }
