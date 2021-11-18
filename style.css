@@ -1,0 +1,171 @@
+*{
+    text-align: center;
+    padding:0;
+    margin: 0;
+    
+}
+body{
+    color:#4a4a4a;
+}
+.background{
+    margin: 15px;
+}
+
+.flex{
+    height: 90px;
+    width: 100%;
+    background-color:yellowgreen;
+    margin-top: 25px;
+    justify-content: flex-start;
+    display: flex;
+    border: solid black;
+    border-radius: 20px;
+
+}
+
+.flex2{
+    height: 90px;
+    width: 100%;
+    background-color:yellowgreen;
+    margin-top: 25px;
+    justify-content: flex-end;
+    display: flex;
+    border: solid black;
+    border-radius: 20px;
+}
+
+.flex3{
+    height: 90px;
+    width: 100%;
+    background-color:yellowgreen;
+    margin-top: 25px;
+    justify-content: center;
+    display: flex;
+    border: solid black;
+    border-radius: 20px;
+}
+
+.flex4{
+    height: 90px;
+    width: 100%;
+    background-color:yellowgreen;
+    margin-top: 25px;
+    justify-content: space-between;
+    display: flex;
+    border: solid black;
+    border-radius: 20px;
+}
+
+.flex5{
+    height: 90px;
+    width: 100%;
+    background-color:yellowgreen;
+    margin-top: 25px; 
+    justify-content: space-around;
+    display: flex;
+    border: solid black;
+    border-radius: 20px;
+}
+
+.flex6{
+    height: 90px;
+    width: 100%;
+    background-color:yellowgreen;
+    margin-top: 25px;
+    justify-content: space-evenly;
+    display: flex;
+    border: solid black;
+    border-radius: 20px;
+}
+
+.box1{
+    height: 60px;
+    width: 60px;
+    background-color: black;
+    margin:15px;
+    border-radius: 5px;
+}
+.box2{
+    height: 60px;
+    width: 60px;
+    background-color: white;
+    margin:15px;
+    border-radius: 5px;
+}
+
+.box3{
+    height: 60px;
+    width: 60px;
+    background-color: black;
+    margin:15px;
+    border-radius: 5px;
+}
+.box4{
+    height: 60px;
+    width: 60px;
+    background-color: white;
+    margin:15px;
+    border-radius: 5px;
+}
+.box5{
+    height: 60px;
+    width: 60px;
+    background-color: black;
+    margin:15px;
+    border-radius: 5px;
+}
+.box6{
+    height: 60px;
+    width: 60px;
+    background-color: white;
+    margin:15px;
+    border-radius: 5px;
+}
+
+.flex3 h1{
+    color: white;
+}
+.flex5 h1{
+    color: white;
+}
+.flex h1{
+    color: white;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #14468A;
+    color: #fff;
+    font-size: 1rem;
+}
+.üld{
+    margin: 20px;
+}
+.oluline{
+    margin: 20px;
+}
+.avaleht{
+    color: white;
+}
+.grid{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.pilt{
+    background-color: white;
+    width: 160px;
+    height: 80px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pilt img{
+    max-height: 70px;
+    max-width: 120px;
+}
+.header1{
+    display: flex;
+    justify-content: space-around;
+}
